@@ -1,0 +1,25 @@
+NOw:
+    ☐ En las paginas debe ir la pagina del body del id pagina para poder identificarlos
+
+Fix/Improve:
+    ☐ Limpiar todos los FIXED o Anchor
+    ☐ Iconos en subtabs, y cambiar ese icono por abajo porque tiende a confundir
+    ☐ The tooltip of each field if you think you can do it at the end of css, review that.
+
+New Feature:
+    ☐ In the textarea fields, add the script to be able to do it automatically as you type
+    ☐ Combine fields of form online without titles, and the button to add (below or to the left)
+        @example  https://ps.w.org/aryo-activity-log/trunk/screenshot-4.png?rev=2005818
+    ☐ En grupo hay que agregar la opcion de que no sear sortabel, y que no sea (clonable, copiable) asi solo
+        se puede eliminar al momento de agregar mas.
+    ☐ En grupo debe haber la posibilidad de que el primero sea visible, o el # de grupo que quiera
+    ☐ En el apartado de COMBENE FIELDS hay que hacer que los campos sean inline, asi como el de los colores
+    porque asi es que se va usar tambieen
+    ☐ In the textarea fields, add the script to be able to do it automatically as you type
+    ☐ Combine fields of form online without titles, and the button to add (below or to the left)
+        @example  https://ps.w.org/aryo-activity-log/trunk/screenshot-4.png?rev=2005818
+    ☐ En grupo hay que agregar la opcion de que no sear sortabel, y que no sea (clonable, copiable) asi solo
+        se puede eliminar al momento de agregar mas.
+    ☐ En grupo debe haber la posibilidad de que el primero sea visible, o el # de grupo que quiera
+    ☐ En el apartado de COMBENE FIELDS hay que hacer que los campos sean inline, asi como el de los colores
+        porque asi es que se va usar tambieen

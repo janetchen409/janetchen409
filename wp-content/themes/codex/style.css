@@ -1,0 +1,194 @@
+/*
+Theme Name: Codex
+Theme URI: http://www.cryoutcreations.eu/wordpress-theme/roseta
+Description: Codex is an extremely fast, easily customizable multi-purpose theme that expands on the already amazing Roseta. It’s perfect for blogs and small businesses, e-commerce shops (WooCommerce) as well as portfolio and photography websites. Codex is a fully responsive theme and being lightweight it will load in just a few seconds. It's also SEO Ready, translation and RTL ready, supports Google fonts, Guttenberg blocks and much more.
+Author: Cryout Creations
+Author URI: http://www.cryoutcreations.eu
+Version: 1.0.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-header, flexible-header, custom-menu, featured-image-header, featured-images, front-page-post-form, full-width-template, footer-widgets, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, e-commerce, photography, portfolio
+Template: roseta
+Text Domain: codex
+
+Codex WordPress Theme - Copyright 2019, Cryout Creations - http://www.cryoutcreations.eu
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+/* HEADER */
+
+#site-title {
+    letter-spacing: -1px;
+}
+
+#access a {
+    padding: 0 2.2em;
+}
+
+#access ul li a {
+    letter-spacing: 1px;
+}
+
+#access > div > ul > li > a > span::before,
+#site-title::before,
+#site-title::after {
+    height: 1px;
+}
+
+.entry-meta span a {
+    border-bottom-width: 1px;
+}
+
+.lp-staticslider .staticslider-caption-title,
+.seriousslider-theme .seriousslider-caption-title {
+    padding: 0.2em 0;
+    font-size: 5em;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+#access > div > ul > li > a > span::before,
+#site-title::before, #site-title::after {
+    content: none;
+}
+
+.single .entry-title,
+#header-page-title .entry-title {
+    padding: .2em 0;
+    line-height: 1.2;
+}
+
+.entry-title strong {
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+#header-page-title .searchform input[type="search"] {
+    max-width: 800px;
+    margin: 0 auto;
+    float: none;
+    border-radius: 100px;
+}
+
+.lp-staticslider .staticslider-caption-text,
+.seriousslider-theme .seriousslider-caption-text,
+#header-page-title .byline {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* LANDING PAGE */
+
+a.staticslider-button,
+.seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button {
+    letter-spacing: -1px;
+}
+
+a.staticslider-button::before,
+.seriousslider-theme .seriousslider-caption-buttons a.seriousslider-button::before {
+    height: 2px;
+    top: calc(100% - 2px);
+}
+
+.lp-staticslider .staticslider-caption-text,
+.seriousslider-theme .seriousslider-caption-text {
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+.lp-block .lp-block-title {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.lp-box-title {
+    letter-spacing: 1px;
+}
+
+.lp-box-readmore > span {
+    top: 0;
+}
+
+.lp-box-readmore::before {
+    height: 2px;
+}
+
+.lp-box-readmore {
+    font-size: .75em;
+    letter-spacing: -.5px;
+}
+
+.main .lp-text-title {
+    font-size: 2.88em;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#cryout_ajax_more_trigger > span {
+    font-weight: 300;
+}
+
+/* CONTENT */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    padding: 1.5em 1.5em;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.continue-reading-link::before {
+    top: calc(100% - 2px);
+}
+
+.main #content-masonry .entry-title::before,
+#container .searchform::after {
+    height: 2px;
+}
+
+#container .searchform input[type="search"] {
+    border-bottom-width: 2px;
+}
+
+#author-description .page-title span {
+    border-bottom-width: 0;
+}
+
+#author-description .page-title {
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.continue-reading-link span {
+    letter-spacing: -0.5px;
+}
+
+.widget-title {
+    letter-spacing: 0;
+}
+
+#nav-fixed span {
+    letter-spacing: 2px;
+}
+
+.lp-staticslider .staticslider-caption-inside,
+.seriousslider.seriousslider-theme .seriousslider-caption-inside,
+#header-page-title #header-page-title-inside {
+    max-width: 1200px;
+}
+
+#comments-title,
+#reply-title {
+    font-size: .9em;
+    letter-spacing: 0;
+}
+
+/* FOOTER */
+.footermenu ul li a::after {
+    height: 1px;
+}
+
+/* FIN */
